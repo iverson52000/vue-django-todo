@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "task/base.html" %}
 
 {% block content %}
 <div id="app">
@@ -9,16 +9,16 @@
             	<input type="text" class="form-control" />
             </div>
             <div class="d-flex flex-column">
-            	<button class="btn btn-primary mt-auto" type="button">Add</button>
+            	<button class="btn btn-info mt-auto" type="button">Add</button>
            	</div>
         </div>
     </form>
 
     <div>
-	    <div class="card">
+	    <div class="card mt-4">
 	        <div class="card-body">
-	        	coding
-	        	<button class="btn close" type="button" >
+	        	[[ task ]]
+	        	<button class="close" type="button" >
 	        		<span>&times;</span>
 	        	</button>
 	        </div>
@@ -27,3 +27,4 @@
 </div>
 
 {% endblock content %}
+
